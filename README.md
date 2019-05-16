@@ -1,4 +1,4 @@
-#Dynamic property Reloading POC
+# Dynamic property Reloading POC
 
 Simple example showing how to reload Spring property values in a Spring application. Almost all required knowledge was obtained by dilligently reading the first three sections of the [Spring Core reference document](https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#spring-core)
 
