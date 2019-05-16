@@ -24,7 +24,7 @@ Simple example which shows how to implement dynamic reloading of application con
 
 2: 	Request is made for reloaded property value
 
-* Custom logic to make a new `Properties` object for updated `application.properties` file (located in `target/classes` directory) using the Application Context `ResourceLoader`
-* The property source object in the Spring `AbstractEnvironment` corresponding to the old `application.properties` file is replaced with a new
+* Custom logic to create a new `Properties` object for the updated `application.properties` file (located in `target/classes` directory) using the Application Context `ResourceLoader`
+* The current property source object in the Spring `AbstractEnvironment` is replaced with a new
 	property source containing the updated property values
 * Reload the injected property value in the Http endpoint bean's instance variable `sampleProp` by using the Bean Factory method `autowireBeanProperties` with the current bean as the target for reloading
