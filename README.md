@@ -19,7 +19,7 @@ Simple example which shows how to implement dynamic reloading of application con
 1: Http endpoint bean is initialized
 
 * Spring Application context injects itself into bean
-* Custom logic to identify name of application config property source object
+* Custom logic to identify the name of the property source object corresponding to `application.properties`
 * Spring Application context uses dependency injection and environment property sources to inject value of `sample.prop` into instance variable "sampleProp"
 
 2: 	Request is made for reloaded property value
