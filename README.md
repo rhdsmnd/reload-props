@@ -18,7 +18,7 @@ Property Sources/Property Sources: Object which Spring uses to store and resolve
 
 1: Http Endpoint bean is initialized
 
-  1a:  Spring Application context injects itself into bean
+&nbsp;&nbsp;1a:  Spring Application context injects itself into bean
   1b:  Custom logic to identify name of application config property source object
   1c:  Spring Application context uses dependency injection and environment property sources to inject value of "sample.prop" into instance variable "sampleProp"
 
