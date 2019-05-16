@@ -4,7 +4,7 @@ Simple example showing how to reload Spring property values in a Spring applicat
 
 ### Summary
 
-Simple example which shows how to implement dynamic reloading of application config values.  Start with `mvn spring-boot:run`, then make a request to `/` to see the current value of configuration value `sample.prop`.  To show dynamic reloading, change the `sample.prop` value in the application.properties file located in the `target/classes` directory.  Then, make another request to `/` to see the updated value.
+Simple example which shows how to implement dynamic reloading of application config values.  Start with `mvn spring-boot:run`, then make a request to `/` to see the current value of configuration value `sample.prop`.  To show dynamic reloading, change the `sample.prop` value in the `application.properties` file located in the `target/classes` directory.  Then, make another request to `/` to see the updated value.
 
 ### Components Used
 
