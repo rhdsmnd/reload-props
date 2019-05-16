@@ -12,7 +12,7 @@ Simple example which shows how to implement dynamic reloading of application con
 
 `AbstractEnvironment`: Provides access to `PropertySources`
 
-`PropertySources`/`PropertySource`: Object which Spring uses to store and resolve properties and `${...}` placeholders
+`PropertySources`/`PropertySource`: Objects which Spring uses to store and resolve properties and `${...}` placeholders
 
 ### Flow
 
